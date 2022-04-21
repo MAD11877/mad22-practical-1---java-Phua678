@@ -1,22 +1,20 @@
 import java.util.Scanner;
 
-public class Question4
+public class Main
 {
   public static void main(String[] args)
   {
-int i,j,rows;
- Scanner in = new Scanner(System.in);
-     //System.out.print("Enter the number of rows: ");
-     rows = in.nextInt();
+    Scanner in = new Scanner(System.in);
+    //System.out.print("Enter the number of rows: ");
+    int rows = in.nextInt();
 
- for(i=rows;i<=rows;i--)
-     {
-         for(j=0;j<=i;j++)
-         {
-             System.out.print("* ");
-         }
-         System.out.println("");
-     } 
-    
+    for(int i=rows;0<i;i--)
+    {
+       for(int j=0;j<i;j++)
+       {
+         System.out.print("* ");
+       }
+    System.out.println();
+    } 
   }
 }
