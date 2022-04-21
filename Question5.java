@@ -19,7 +19,7 @@ public class Question5
 		
 		//System.out.println("Entered elements are : ");
 		for(int i=0;i<number_of;i++) {
-			System.out.print(arr[i]+" ");
+			//System.out.print(arr[i]+" ");
 		}
 		
 		int maxVal=0, count=0, maxCount=0;
