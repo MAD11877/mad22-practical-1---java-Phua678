@@ -7,17 +7,17 @@ public class Question5
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
-		System.out.println("Enter the size of array : ");
+		//System.out.println("Enter the size of array : ");
 		int number_of = in.nextInt();
 		
 		int arr[] = new int[number_of];
 		
-		System.out.println("Enter the elements of array : ");
+		//System.out.println("Enter the elements of array : ");
 		for(int i=0;i<number_of;i++) {
 			arr[i] = in.nextInt();
 		}
 		
-		System.out.println("Entered elements are : ");
+		//System.out.println("Entered elements are : ");
 		for(int i=0;i<number_of;i++) {
 			System.out.print(arr[i]+" ");
 		}
