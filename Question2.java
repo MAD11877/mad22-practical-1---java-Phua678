@@ -15,4 +15,4 @@ public class Question2
     //System.out.println("Your BMI is " + bmi);  
     System.out.println(bmi);
   }
-}
+};
