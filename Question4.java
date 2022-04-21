@@ -6,12 +6,12 @@ public class Question4
   {
 int i,j,rows;
  Scanner in = new Scanner(System.in);
-     System.out.print("Enter the number of rows: ");
+     //System.out.print("Enter the number of rows: ");
      rows = in.nextInt();
-    
- for(i=1;i<=rows;i++)
+
+ for(i=rows;i<=rows;i--)
      {
-         for(j=1;j<=i;j++)
+         for(j=0;j<=i;j++)
          {
              System.out.print("* ");
          }
