@@ -37,6 +37,7 @@ public class Question5
 	               }
 		}
 		
-		System.out.println("\nThe mode is "+maxVal+" as there are "+maxCount + " of the number " + maxVal );
+		//System.out.println("\nThe mode is "+maxVal+" as there are "+maxCount + " of the number " + maxVal );
+		System.out.println(maxVal);
 	}
 }
